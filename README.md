@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -705,3 +706,9 @@
   </body>
 </html>
 
+=======
+autoTRAM
+========
+
+An R suite for extracting and analyzing UDK navigation data.
+>>>>>>> 07c049d62bf4862e6108fa750ebbb4ac68742a3b
