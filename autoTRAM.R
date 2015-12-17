@@ -17,5 +17,7 @@ autoTRAM = function(){
 	batch_dwellTimes(pList)
 	batch_platformDev(pList)
 	batch_pathCurvature(pList)
+    batch_finalCoords(pList)
+    batch_pathPlot(pList)
 	print(paste('Exported', length(pList), 'summary files.'))
 }

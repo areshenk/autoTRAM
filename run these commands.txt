@@ -1,0 +1,3 @@
+setwd("/Users/thomasferguson/Desktop/autoTRAM")
+source("autoTRAM.R")
+autoTRAM()

@@ -3,7 +3,7 @@ closest = function(data, match_value){
 	return(which.min(abs(data-match_value)))
 }
 
-trialLatency = function(data){
+trialLatency <- function(data){
 	# Computes latency trial latency (defined as the elapsed time,
 	# in seconds, from the start until the end of the trial)
 
@@ -72,6 +72,17 @@ platformDev = function(data, p_loc){
 	n = length(x)
 
 	return(sqrt((x[n] - p_loc[1])^2 + (y[n] - p_loc[2])^2))
+}
+
+finalCoords = function(data){
+	# Returns the coordinates of the final location attained by a player
+    # in a trial.
+
+	x = data$x
+	y = data$y
+	n = length(x)
+
+	return(c(x[n], y[n]))
 }
 
 pathCurvature = function(data){
